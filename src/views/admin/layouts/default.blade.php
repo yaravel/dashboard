@@ -1,4 +1,4 @@
-@extends('packages.yaravel.yform.admin.layouts.blank')
+@extends('packages.yaravel.dashboard.admin.layouts.blank')
 @section('contentMaster')
 	<div id="wrapper">
 		<nav class="navbar navbar-default navbar-cls-top " role="navigation" style="margin-bottom: 0">
@@ -9,13 +9,13 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="{{ NAVURL::dsbase(Session::get('systemName') . '/profile/edit') }}">{{ strtoupper(Auth::user()->username) }}</a> 
+				<a class="navbar-brand" href="{{ NAVURL::dsbase(Session::get('systemName') . '/profile/edit') }}">{{ strtoupper(Auth::user()->username) }}</a>
 			</div>
 			<div style="color: white;
 			padding: 15px 50px 5px 50px;
 			float: right;
 			font-size: 16px;"> <a href="{{ NAVURL::dsbase(Session::get('systemName') . '/profile/edit') }}" class="btn btn-danger square-btn-adjust" id="nav-editprofile"><i class="fa fa-user"></i> Perfil</a> <a href="{{ NAVURL::dsbase(Session::get('systemName') . '/login') }}" class="btn btn-danger square-btn-adjust"><i class="fa fa-times-circle-o"></i> Salir</a> </div>
-		</nav>   
+		</nav>
 		<!-- /. NAV TOP  -->
 		<nav class="navbar-default navbar-side" role="navigation">
 			<div class="sidebar-collapse">

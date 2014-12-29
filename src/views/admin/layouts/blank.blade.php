@@ -6,6 +6,7 @@
 	<title>Panel Administrador : </title>
 	<!-- BOOTSTRAP STYLES-->
 	<link href="{{asset('packages/yaravel/dashboard/admin/css/styles.css')}}" rel="stylesheet" />
+	<link href="{{asset('packages/yaravel/dashboard/admin/jasny-bootstrap/css/jasny-bootstrap.min.css')}}" rel="stylesheet" />
 	<!-- FONTAWESOME STYLES-->
 
 	<link href="{{asset('font-awesome/css/font-awesome.css')}}" rel="stylesheet" />
@@ -25,6 +26,8 @@
 	<script type="text/javascript" src="{{asset('assets/js/DS.js')}}"></script>
 	<!-- BOOTSTRAP SCRIPTS -->
 	<script type="text/javascript" src="{{asset('packages/yaravel/dashboard/admin/js/bootstrap.min.js')}}"></script>
+	<!-- BOOTSTRAP SCRIPTS -->
+	<script type="text/javascript" src="{{asset('packages/yaravel/dashboard/admin/jasny-bootstrap/js/jasny-bootstrap.min.js')}}"></script>
 	<!-- METISMENU SCRIPTS -->
 	<script type="text/javascript" src="{{asset('packages/yaravel/dashboard/admin/js/jquery.metisMenu.js')}}"></script>
 	<!-- MORRIS CHART SCRIPTS -->

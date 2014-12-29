@@ -19,7 +19,7 @@
 		<!-- /. NAV TOP  -->
 		<nav class="navbar-default navbar-side" role="navigation">
 			<div class="sidebar-collapse">
-				@include('yform.admin.menu.' . Auth::user()->rowclient)
+				@include('dashboard.menu.' . Auth::user()->rowclient)
 			</div>
 
 		</nav>
